@@ -1,6 +1,8 @@
 name: Sync site
 
 on:
+  push: main
+  pull_request: main
   schedule:
     - cron: '0 0 * * *'
   workflow_dispatch:
@@ -22,6 +24,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: ./sync.py
       - name: Commit and push
+        if: github.event_name != 'pull_request'
         run: |
           # Do not enable branch protection for main; it'll break this.
           git config user.name 'CoreOS Bot'
