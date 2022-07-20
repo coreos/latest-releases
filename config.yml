@@ -1,0 +1,36 @@
+thresholds:
+  # days
+  green: 60
+  yellow: 180
+
+groups:
+  - name: Distro components
+    repos:
+    - coreos/afterburn
+    - coreos/bootupd
+    - coreos/console-login-helper-messages
+    - coreos/coreos-installer
+    - coreos/ignition
+    - coreos/rpm-ostree
+    - coreos/ssh-key-dir
+    - coreos/toolbox
+    - coreos/zincati
+    - ostreedev/ostree
+
+  - name: Utilities
+    repos:
+    - coreos/butane
+
+  - name: Libraries
+    repos:
+    - coreos/cap-std-ext
+    - coreos/go-json
+    - coreos/go-semver
+    - coreos/go-systemd
+    - coreos/ign-converter
+    - coreos/ignition-config-rs
+    - coreos/openat-ext
+    - coreos/openssh-keys
+    - coreos/stream-metadata-go
+    - coreos/stream-metadata-rust
+    - ostreedev/ostree-rs-ext

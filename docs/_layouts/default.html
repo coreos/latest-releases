@@ -1,0 +1,28 @@
+<!doctype html>
+<title>{{ page.title }}</title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+<style>
+html {
+  margin: .6em;
+}
+table {
+  border-collapse: collapse;
+}
+td {
+  padding: .2em .5em;
+}
+tbody tr:nth-child(odd) {
+  background-color: #e8e8e8;
+}
+#source {
+  float: right;
+  margin: .6em;
+}
+</style>
+
+<div id=source>
+<a href="https://github.com/coreos/latest-releases/">source</a>
+</div>
+
+{{ content }}
