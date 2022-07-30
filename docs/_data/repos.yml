@@ -7,17 +7,17 @@ groups:
     compare_url: https://github.com/coreos/afterburn/compare/v5.3.0...main
     release: 5.3.0
     release_date: '2022-04-29'
-    release_days: 90
+    release_days: 91
     release_url: https://github.com/coreos/afterburn/releases/tag/v5.3.0
     repo: coreos/afterburn
     url: https://github.com/coreos/afterburn
-  - compare_commits: 207
-    compare_nontrivial: 37
-    compare_url: https://github.com/coreos/bootupd/compare/v0.2.6...main
-    release: 0.2.6
-    release_date: '2021-09-08'
-    release_days: 323
-    release_url: https://github.com/coreos/bootupd/releases/tag/v0.2.6
+  - compare_commits: 0
+    compare_nontrivial: 0
+    compare_url: https://github.com/coreos/bootupd/compare/v0.2.7...main
+    release: 0.2.7
+    release_date: '2022-07-29'
+    release_days: 0
+    release_url: https://github.com/coreos/bootupd/releases/tag/v0.2.7
     repo: coreos/bootupd
     url: https://github.com/coreos/bootupd
   - compare_commits: 5
@@ -25,7 +25,7 @@ groups:
     compare_url: https://github.com/coreos/console-login-helper-messages/compare/v0.21.3...main
     release: 0.21.3
     release_date: '2022-07-15'
-    release_days: 13
+    release_days: 14
     release_url: https://github.com/coreos/console-login-helper-messages/releases/tag/v0.21.3
     repo: coreos/console-login-helper-messages
     url: https://github.com/coreos/console-login-helper-messages
@@ -34,7 +34,7 @@ groups:
     compare_url: https://github.com/coreos/coreos-installer/compare/v0.15.0...main
     release: 0.15.0
     release_date: '2022-06-17'
-    release_days: 41
+    release_days: 42
     release_url: https://github.com/coreos/coreos-installer/releases/tag/v0.15.0
     repo: coreos/coreos-installer
     url: https://github.com/coreos/coreos-installer
@@ -43,16 +43,16 @@ groups:
     compare_url: https://github.com/coreos/ignition/compare/v2.14.0...main
     release: 2.14.0
     release_date: '2022-05-19'
-    release_days: 70
+    release_days: 71
     release_url: https://github.com/coreos/ignition/releases/tag/v2.14.0
     repo: coreos/ignition
     url: https://github.com/coreos/ignition
-  - compare_commits: 43
-    compare_nontrivial: 13
+  - compare_commits: 46
+    compare_nontrivial: 15
     compare_url: https://github.com/coreos/rpm-ostree/compare/v2022.12...main
     release: '2022.12'
     release_date: '2022-07-19'
-    release_days: 9
+    release_days: 10
     release_url: https://github.com/coreos/rpm-ostree/releases/tag/v2022.12
     repo: coreos/rpm-ostree
     url: https://github.com/coreos/rpm-ostree
@@ -61,7 +61,7 @@ groups:
     compare_url: https://github.com/coreos/ssh-key-dir/compare/v0.1.3...main
     release: 0.1.3
     release_date: '2022-01-19'
-    release_days: 190
+    release_days: 191
     release_url: https://github.com/coreos/ssh-key-dir/releases/tag/v0.1.3
     repo: coreos/ssh-key-dir
     url: https://github.com/coreos/ssh-key-dir
@@ -70,7 +70,7 @@ groups:
     compare_url: https://github.com/coreos/toolbox/compare/0.0.9...main
     release: 0.0.9
     release_date: '2022-05-17'
-    release_days: 72
+    release_days: 73
     release_url: https://github.com/coreos/toolbox/releases/tag/0.0.9
     repo: coreos/toolbox
     url: https://github.com/coreos/toolbox
@@ -79,7 +79,7 @@ groups:
     compare_url: https://github.com/coreos/zincati/compare/v0.0.24...main
     release: 0.0.24
     release_date: '2021-11-01'
-    release_days: 269
+    release_days: 270
     release_url: https://github.com/coreos/zincati/releases/tag/v0.0.24
     repo: coreos/zincati
     url: https://github.com/coreos/zincati
@@ -88,7 +88,7 @@ groups:
     compare_url: https://github.com/ostreedev/ostree/compare/v2022.5...main
     release: '2022.5'
     release_date: '2022-07-22'
-    release_days: 6
+    release_days: 7
     release_url: https://github.com/ostreedev/ostree/releases/tag/v2022.5
     repo: ostreedev/ostree
     url: https://github.com/ostreedev/ostree
@@ -99,7 +99,7 @@ groups:
     compare_url: https://github.com/coreos/butane/compare/v0.15.0...main
     release: 0.15.0
     release_date: '2022-07-05'
-    release_days: 23
+    release_days: 24
     release_url: https://github.com/coreos/butane/releases/tag/v0.15.0
     repo: coreos/butane
     url: https://github.com/coreos/butane
@@ -110,7 +110,7 @@ groups:
     compare_url: https://github.com/coreos/go-systemd/compare/v22.3.2...main
     release: 22.3.2
     release_date: '2021-05-10'
-    release_days: 444
+    release_days: 445
     release_url: https://github.com/coreos/go-systemd/releases/tag/v22.3.2
     repo: coreos/go-systemd
     url: https://github.com/coreos/go-systemd
@@ -119,7 +119,7 @@ groups:
     compare_url: https://github.com/coreos/ignition-config-rs/compare/v0.2.0...main
     release: 0.2.0
     release_date: '2021-12-03'
-    release_days: 237
+    release_days: 238
     release_url: https://github.com/coreos/ignition-config-rs/releases/tag/v0.2.0
     repo: coreos/ignition-config-rs
     url: https://github.com/coreos/ignition-config-rs
@@ -128,7 +128,7 @@ groups:
     compare_url: https://github.com/coreos/openssh-keys/compare/v0.5.0...main
     release: 0.5.0
     release_date: '2021-03-16'
-    release_days: 499
+    release_days: 500
     release_url: https://github.com/coreos/openssh-keys/releases/tag/v0.5.0
     repo: coreos/openssh-keys
     url: https://github.com/coreos/openssh-keys
@@ -137,9 +137,9 @@ groups:
     compare_url: https://github.com/ostreedev/ostree-rs-ext/compare/ostree-ext-v0.7.1...main
     release: 0.7.1
     release_date: '2022-04-21'
-    release_days: 98
+    release_days: 99
     release_url: https://github.com/ostreedev/ostree-rs-ext/releases/tag/ostree-ext-v0.7.1
     repo: ostreedev/ostree-rs-ext
     url: https://github.com/ostreedev/ostree-rs-ext
-updated: '2022-07-29 00:23:43'
+updated: '2022-07-30 00:21:11'
 yellow_thresh: 180
