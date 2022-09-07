@@ -1,2 +1,5 @@
 github3.py
 PyYAML
+# Required by cryptography >= 38, required by urllib3, required by requests,
+# required by github3.py
+pyOpenSSL >= 22
