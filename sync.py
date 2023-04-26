@@ -41,7 +41,7 @@ def main():
                 release.tag_name, repo.default_branch
             )
             nontrivial_commits = len([
-                c for c in compare.commits
+                c for c in compare.commits()
                 # not merge commit
                 if len(c.parents) == 1 and
                 # not by Dependabot
