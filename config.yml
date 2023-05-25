@@ -20,17 +20,21 @@ groups:
   - name: Utilities
     repos:
     - coreos/butane
+    - coreos/cargo-vendor-filterer
 
   - name: Libraries
     repos:
     - coreos/cap-std-ext
+    - coreos/envsubst-rs
     - coreos/go-json
     - coreos/go-semver
     - coreos/go-systemd
     - coreos/ign-converter
     - coreos/ignition-config-rs
+    - coreos/liboverdrop-rs
     - coreos/openat-ext
     - coreos/openssh-keys
     - coreos/stream-metadata-go
     - coreos/stream-metadata-rust
+    - coreos/vmw_backdoor-rs
     - ostreedev/ostree-rs-ext
