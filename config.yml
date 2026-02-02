@@ -6,13 +6,13 @@ thresholds:
 groups:
   - name: Distro components
     repos:
+    - bootc-dev/bootc
     - coreos/afterburn
     - coreos/bootupd
     - coreos/console-login-helper-messages
     - coreos/coreos-installer
     - coreos/ignition
     - coreos/rpm-ostree
-    - coreos/ssh-key-dir
     - coreos/toolbox
     - coreos/zincati
     - ostreedev/ostree
@@ -37,4 +37,3 @@ groups:
     - coreos/stream-metadata-go
     - coreos/stream-metadata-rust
     - coreos/vmw_backdoor-rs
-    - ostreedev/ostree-rs-ext
