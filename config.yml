@@ -6,6 +6,7 @@ thresholds:
 groups:
   - name: Distro components
     repos:
+    - bootc-dev/bootc
     - coreos/afterburn
     - coreos/bootupd
     - coreos/console-login-helper-messages
