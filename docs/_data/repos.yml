@@ -16,7 +16,7 @@ groups:
     compare_url: https://github.com/coreos/afterburn/compare/v5.10.0...main
     release: 5.10.0
     release_date: '2025-10-01'
-    release_days: 123
+    release_days: 124
     release_url: https://github.com/coreos/afterburn/releases/tag/v5.10.0
     repo: coreos/afterburn
     url: https://github.com/coreos/afterburn
@@ -34,7 +34,7 @@ groups:
     compare_url: https://github.com/coreos/console-login-helper-messages/compare/v0.20.4...main
     release: 0.20.4
     release_date: '2022-08-02'
-    release_days: 1279
+    release_days: 1280
     release_url: https://github.com/coreos/console-login-helper-messages/releases/tag/v0.20.4
     repo: coreos/console-login-helper-messages
     url: https://github.com/coreos/console-login-helper-messages
@@ -43,7 +43,7 @@ groups:
     compare_url: https://github.com/coreos/coreos-installer/compare/v0.25.0...main
     release: 0.25.0
     release_date: '2025-10-01'
-    release_days: 123
+    release_days: 124
     release_url: https://github.com/coreos/coreos-installer/releases/tag/v0.25.0
     repo: coreos/coreos-installer
     url: https://github.com/coreos/coreos-installer
@@ -61,7 +61,7 @@ groups:
     compare_url: https://github.com/coreos/rpm-ostree/compare/v2026.1...main
     release: '2026.1'
     release_date: '2026-01-22'
-    release_days: 10
+    release_days: 11
     release_url: https://github.com/coreos/rpm-ostree/releases/tag/v2026.1
     repo: coreos/rpm-ostree
     url: https://github.com/coreos/rpm-ostree
@@ -88,18 +88,18 @@ groups:
     compare_url: https://github.com/ostreedev/ostree/compare/v2025.7...main
     release: '2025.7'
     release_date: '2025-11-11'
-    release_days: 82
+    release_days: 83
     release_url: https://github.com/ostreedev/ostree/releases/tag/v2025.7
     repo: ostreedev/ostree
     url: https://github.com/ostreedev/ostree
 - name: Utilities
   repos:
-  - compare_commits: 4
+  - compare_commits: 6
     compare_nontrivial: 1
     compare_url: https://github.com/coreos/butane/compare/v0.26.0...main
     release: 0.26.0
     release_date: '2026-01-21'
-    release_days: 11
+    release_days: 12
     release_url: https://github.com/coreos/butane/releases/tag/v0.26.0
     repo: coreos/butane
     url: https://github.com/coreos/butane
@@ -108,7 +108,7 @@ groups:
     compare_url: https://github.com/coreos/cargo-vendor-filterer/compare/v0.5.16...main
     release: 0.5.16
     release_date: '2024-10-21'
-    release_days: 468
+    release_days: 469
     release_url: https://github.com/coreos/cargo-vendor-filterer/releases/tag/v0.5.16
     repo: coreos/cargo-vendor-filterer
     url: https://github.com/coreos/cargo-vendor-filterer
@@ -137,16 +137,16 @@ groups:
     compare_url: https://github.com/coreos/ignition-config-rs/compare/v0.5.0...main
     release: 0.5.0
     release_date: '2024-11-07'
-    release_days: 451
+    release_days: 452
     release_url: https://github.com/coreos/ignition-config-rs/releases/tag/v0.5.0
     repo: coreos/ignition-config-rs
     url: https://github.com/coreos/ignition-config-rs
-  - compare_commits: 20
-    compare_nontrivial: 12
+  - compare_commits: 22
+    compare_nontrivial: 13
     compare_url: https://github.com/coreos/liboverdrop-rs/compare/0.1.0...main
     release: 0.1.0
     release_date: '2023-02-03'
-    release_days: 1094
+    release_days: 1095
     release_url: https://github.com/coreos/liboverdrop-rs/releases/tag/0.1.0
     repo: coreos/liboverdrop-rs
     url: https://github.com/coreos/liboverdrop-rs
@@ -186,5 +186,5 @@ groups:
     release_url: https://github.com/coreos/vmw_backdoor-rs/releases/tag/v0.2.4
     repo: coreos/vmw_backdoor-rs
     url: https://github.com/coreos/vmw_backdoor-rs
-updated: '2026-02-02 17:30:05'
+updated: '2026-02-03 00:43:47'
 yellow_thresh: 180
